@@ -1,17 +1,31 @@
-package com.company;// the package inside which our program is
+package com.company;
+import java.util.Scanner;
+public class Main {
 
-public class Main {  //the class which has main function in it so it has name similar to main func
+    public static void main(String[] args) {
+        System.out.println("PERCENTAGE CALCULATOR");
+        Scanner one = new Scanner(System.in);
+        System.out.println("enter the total no of marks");  /*further we can also use loops in the program to run the
+                                                            program in any condition*/
+        int no_of_marks = one.nextInt();
+        System.out.println("enter the marks for first subject");
+        int sub1 = one.nextInt();
+        System.out.println("enter the marks for second subject");
+        int sub2 = one.nextInt();
+        System.out.println("enter the marks for third subject");
+        int sub3 = one.nextInt();
+        System.out.println("enter the marks for fourth subject");
+        int sub4 = one.nextInt();
+        System.out.println("enter the marks for fifth subject");
+        int sub5 = one.nextInt();
+        int sum ;
+        sum = sub1+ sub2 + sub3 + sub4 + sub5;
+        double percent;
+        percent =  (double)sum/no_of_marks * 100;  /* here we can also write d at the end but that is only possible when
+                                                    we have two integers and not variables or literals in that case we use
+                                                    double written in brackets */
+        System.out.print(" Congratulations your percentage is :"+percent);
+        System.out.print(" %");
 
-    public static void main(String[] args) {  /* the main function and here the
-                                    static word is also used so that we can run the class without object s in c++
-                                    (static makes the function independent), void main(no return)
-                                    and the string args is used cause of the arguments which the function will
-                                     get inside */
-        System.out.print("The value of additions of the numbers will be : ");
-        int num1 = 1;
-        int num2 = 2;
-        int num3 = 3;
-        System.out.println(num1 + num2 + num3);/*remember here first the matter is printed and then the ln (next line)
-         is added */
     }
 }
