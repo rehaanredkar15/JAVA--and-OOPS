@@ -21,6 +21,12 @@ public class switch_case {
             default:
                 System.out.println("wrong choice");
         }
-
+         switch (age) { //also has enhanced switch
+            case 14 -> System.out.println("its 14");
+            case 15 -> System.out.println("its 15");
+            case 19 -> System.out.println("its 19");
+            case 18 -> System.out.println("its 18");
+            default -> System.out.println("wrong choice");
+        }
     }
 }
