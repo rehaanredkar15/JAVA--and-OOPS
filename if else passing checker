@@ -1,0 +1,26 @@
+package com.company;
+import java.util.Scanner;
+public class practice {
+    public static void main(String[] args) {
+        System.out.println("CHECK IF STUDENT IS PASSED OR NOT");
+        Scanner sub = new Scanner(System.in);
+        System.out.println("enter the marks for following subjects");
+        System.out.print(" DS : ");
+        int sub1 = sub.nextInt();
+        System.out.print(" algo : ");
+        int sub2 = sub.nextInt();
+        System.out.print("automata : ");
+        int sub3 = sub.nextInt();
+        float avg = (sub1+sub2+sub3)/3.0f;
+        if( avg >= 40 && sub1 >= 33 && sub2 >= 33 && sub3 >= 33)
+        {
+            System.out.println(" The student has passed");
+
+        }
+        else
+        {
+            System.out.println(" The student has failed");
+        }
+
+    }
+}
