@@ -10,9 +10,9 @@ public class methods {
     }
 
     public static int mymethod(int s)   /* methods can also be called as functions as it works similarly to
-                                           functions , here we can pass parameters also */
-    {
+                                           functions , here we can pass parameters also */ {
         System.out.println("hi");
-         s = 9;
+        s = 9;
         return s;
     }
+}
