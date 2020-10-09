@@ -16,5 +16,6 @@ public class stringbuilder {
        sb.append("rehan");
        sb.append(" thanks for talking with us");
        /* here the changes are done in a same string and the space and time is saved so this is the most efficient way */
+        System.out.println(sb.toString());
     }
 }
