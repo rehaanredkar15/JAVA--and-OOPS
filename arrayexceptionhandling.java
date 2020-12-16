@@ -5,8 +5,8 @@ class s2
 	   try
 	   {
 		   int r[] = new int[5];
-		   r[5] = 50/0;
-		   System.out.println(r[7]);
+		    r[5] = 50/10;
+		   System.out.println(r[5]);
 	   }
 	   catch(ArithmeticException e1)
 	   {
@@ -25,3 +25,4 @@ class s2
 	   System.out.println("Rahilele Program");
 	 }
 }
+
